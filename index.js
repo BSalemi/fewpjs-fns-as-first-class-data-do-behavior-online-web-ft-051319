@@ -15,3 +15,8 @@ function greet(timeString){
     return "Good Afternoon"
   }
 }
+
+function displayMessage(string){
+  let greeting = document.querySelector('#greeting')
+  greeting.innerHTML = string
+}
