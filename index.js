@@ -9,5 +9,9 @@ function greet(timeString){
   let time = parseInt(timeSplit[0], 10)
   if(time < 12){
     return "Good Morning"
+  } else if(12 > time < 5){
+    return "Good Afternoon"
+  } else {
+    return "Good Evening"
   }
 }
