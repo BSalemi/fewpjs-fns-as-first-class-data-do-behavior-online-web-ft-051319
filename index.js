@@ -4,7 +4,8 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-function greet(time){
+function greet(timeString){
+  let time = timeString.split(":")
   if(time < "12:00"){
     return "Good Morning"
   }
