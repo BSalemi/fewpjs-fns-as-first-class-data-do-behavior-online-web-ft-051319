@@ -17,6 +17,6 @@ function greet(timeString){
 }
 
 function displayMessage(string){
-  let greeting = document.querySelector('#greeting')
+  let greeting = document.getElementById('greeting')
   greeting.innerHTML = string
 }
